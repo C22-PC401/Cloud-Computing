@@ -7,5 +7,7 @@ const db = {};
 db.mongoose = mongoose;
 db.url = dbConfig.url;
 db.report = require("./report.model.js")(mongoose)
+db.information = require("./information.model.js")(mongoose)
+db.community = require("./community.model.js")(mongoose)
 
 module.exports = db;
