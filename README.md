@@ -7,4 +7,5 @@ Cloud Computing Roles are create several REST API using Node.js and deploy it. T
 Cloud Computing Members:
 
 C2369F2924 - Erik Septiana Sanusi  - STMIK Amik Bandung - Cloud Computing [active]
+
 C2441X3025 - Nur Hidayatul Fatihah  - Universitas Islam Negeri Maulana Malik Ibrahim Malang - Cloud Computing [active]
