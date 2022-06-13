@@ -5,5 +5,6 @@ Lapor.in is an application for reporting and tracking sexual harassment cases th
 Cloud Computing Roles are create several REST API using Node.js and deploy it. The API is used by the Mobile Development path for the backend services of the android apps. The API includes authentication and CRUD (Create, Read, Update, Delete) of the application. We were also creating the database using MongoDB Atlas for both users and admins. In addition, we also  deploy the API Documentation using App Engine through Google Cloud Platform.
 
 Cloud Computing Members:
+
 C2369F2924 - Erik Septiana Sanusi  - STMIK Amik Bandung - Cloud Computing [active]
 C2441X3025 - Nur Hidayatul Fatihah  - Universitas Islam Negeri Maulana Malik Ibrahim Malang - Cloud Computing [active]
