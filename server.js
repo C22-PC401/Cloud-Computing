@@ -14,8 +14,9 @@ app.use(express.urlencoded({
 }));
 
 const db = require('./app/models/');
+const { PROD_URI } = process.env;
 db.mongoose
-    .connect(db.url, {
+    .connect(process.env.PROD_URI, {
         useNewUrlParser: true,
         useUnifiedTopology: true
     }).then(() => {
@@ -34,6 +35,12 @@ app.get("/", (req, res) => {
 require('./app/routes/app.routes')(app)
 
 const PORT = 8000;
-app.listen(PORT, () => {
-    console.log(`Server is Running on http://localhost:${PORT}`);
+const { SERVER_PORT } = process.env;
+app.listen(process.env.SERVER_PORT || PORT, () => {
+    console.log(`Server is Running on`);
+    if(SERVER_PORT){
+        console.log(`http://localhost:${SERVER_PORT}`)
+    } else {
+        console.log(`http://localhost:${PORT}`)
+    }
 });
